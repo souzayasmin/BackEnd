@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fazer Login</title>
+
+    <!--Incluindo o arquivo de estilização-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Tag semântica de cabeçalho-->
+    <header>
+      <h3>Página Login</h3>
+      <button onclick="window.location.href='index.html'" class="botao-loginHome">Home</button>
+    </header>
+
+    <!--tag semântica para organização do conteúdo do site-->
+    <main>
+      <!--primeira seção do conteúdo-->
+      <section id="login">
+        <img src="senaisplogo.png" alt="Logo SENAI SP" />
+        <form id="login-form">
+          <h2>Login</h2>
+          <label for="email"></label>
+          <input type="text" placeholder="Email" class="input-box" id="email" name="email" required/>
+          <br />
+
+          <label for="senha"></label>
+          <input type="password" placeholder="Senha" class="input-box" id="senha" name="senha" required/>
+          <br />
+
+          <button type="submit" class="login-button">Entrar</button>
+          <br />
+          
+          <h5 class="login-nnsenha">Não tem uma conta ?</h5>
+          <h5
+            onclick="window.location.href='cadastro.html'"
+            class="login-nsenha">Cadastra-se
+          </h5>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;Desenvolvido por:Yasmin, Mateus e Arthur</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

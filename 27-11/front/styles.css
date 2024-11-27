@@ -1,0 +1,157 @@
+/* Seletor Universal - aplica estilos padrão a todos os elementos da página */
+* {
+  margin: 0; /* Remove a margem padrão de todos os elementos */
+  padding: 0; /* Remove o padding padrão de todos os elementos */
+  box-sizing: border-box; /* Inclui bordas e padding no cálculo da largura e altura dos elementos */
+}
+
+/* Estiliza o corpo principal da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão como Arial com fallback para sans-serif */
+  background-color: #d90000; /* Define a cor de fundo do body em vermelho */
+  color: #333; /* Define a cor do texto */
+  min-height: 100vh; /* Define altura mínima de 100% da viewport */
+  position: relative; /* Posiciona o body para o rodapé absoluto */
+  padding-bottom: 100px; /* Cria espaço para o rodapé na parte inferior da página */
+}
+
+/* Estilos para o cabeçalho */
+header {
+  margin: 0px; /* Remove a margem */
+  background-color: #c4c4c4; /* Define cor de fundo cinza claro */
+  padding: 30px; /* Adiciona padding ao redor do conteúdo */
+}
+
+header h3 {
+  display: flex; /* Usa flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  margin: 0px; /* Remove margens */
+}
+
+/* Estilos para o botão de login na home */
+.botao-loginHome {
+  position: absolute; /* Posiciona o botão de forma absoluta */
+  right: 30px; /* Posiciona o botão à direita */
+  top: 20px; /* Define a distância do topo */
+  background-color: red; /* Define a cor de fundo */
+  color: white; /* Define a cor do texto */
+  border: none; /* Remove a borda */
+  padding: 10px 20px; /* Define o espaçamento interno */
+  font-size: 16px; /* Define o tamanho da fonte */
+  cursor: pointer; /* Mostra o cursor como uma mão ao passar sobre o botão */
+  border-radius: 5px; /* Arredonda os cantos */
+}
+
+/* Estilos para o botão de cadastro */
+.botao-cadastro {
+  position: absolute;
+  right: 150px;
+  top: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos principais para a área de conteúdo */
+main {
+  padding: 40px; /* Define padding ao redor do conteúdo */
+  text-align: center; /* Centraliza o texto */
+}
+
+main img {
+  max-width: 160px; /* Limita a largura máxima das imagens */
+  background-color: #c4c4c4;
+  padding: 10px;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+/* Estilos para a seção "home" */
+#home {
+  background-color: #c4c4c4;
+  width: 30%; /* Define a largura do elemento */
+  padding: 20px;
+  border-radius: 10px; /* Arredonda os cantos */
+  padding-bottom: 40px;
+  margin: 50px auto; /* Centraliza e adiciona margem superior */
+}
+
+/* Estilos para a seção de login */
+#login {
+  background-color: #c4c4c4;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin: 30px auto; /* Centraliza e define margem superior */
+}
+
+/* Estilos para a seção de cadastro */
+#cadastro {
+  background-color: #c4c4c4;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+
+/* Estilo do botão de login */
+.login-button {
+  background-color: #ff0000;
+  color: rgb(240, 240, 240);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo do botão de cadastro */
+.cadastro-button {
+  background-color: #ff0000;
+  color: rgb(240, 240, 240);
+  padding: 5px;
+  width: 50%; /* Define a largura do botão */
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o link "esqueci minha senha" */
+.login-nsenha {
+  cursor: pointer; /* Define o cursor como uma mão */
+  text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Estilos para a caixa de entrada de texto */
+.input-box {
+  width: 80%;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e1dfdf; /* Fundo cinza claro */
+}
+
+/* Estilo para os títulos de seção dentro do main */
+main section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 15px;
+  width: 100%; /* Define o rodapé para ocupar toda a largura */
+  position: absolute; /* Posiciona de forma absoluta */
+  bottom: 0; /* Fixa na parte inferior da página */
+}
